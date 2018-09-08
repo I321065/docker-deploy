@@ -1,0 +1,1 @@
+docker run -d -p 9080:8080 -p 50000:50000 --name jenkins --privileged=true  -v jenkins_home:/var/jenkins_home jenkinsci/blueocean:latest
